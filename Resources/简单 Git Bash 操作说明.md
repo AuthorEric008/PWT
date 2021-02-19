@@ -28,7 +28,7 @@
 
 **检查当前用户**：```ssh -T git@github.com```
 
-**删除密钥**：```ssh-add -d /Users/87277/.ssh/id_rsa```
+**删除密钥**：```ssh-add -d .ssh/id_rsa```
 
-**添加密钥**：```ssh-add /Users/87277/.ssh/id_rsa_eric```
+**添加密钥**：```ssh-add .ssh/id_rsa_eric```
 
