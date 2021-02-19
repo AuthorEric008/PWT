@@ -19,3 +19,16 @@
 **回退后强行同步**：（注：这也是先有本地库再有远程库的操作）
 
 ```git push origin HEAD --force```
+
+
+
+## ssh密钥操作：(应该是对的)
+
+**创建密钥**：```ssh-keygen -t rsa -C "eric008@xxxhi.cc"```
+
+**检查当前用户**：```ssh -T git@github.com```
+
+**删除密钥**：```ssh-add -d /Users/87277/.ssh/id_rsa```
+
+**添加密钥**：```ssh-add /Users/87277/.ssh/id_rsa_eric```
+
